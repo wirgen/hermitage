@@ -12,7 +12,7 @@ delivery and modification of your images for the desired clients and devices. He
 More Hermitage documentation in [Hermitage repo](https://github.com/LiveTyping/hermitage)
 
 Changes in this repo:
-* Provide setting for accessible original files
+* Added control access to the original files
 
 # Installation
 
