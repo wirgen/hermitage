@@ -1,0 +1,26 @@
+{
+  "name": "wirgen/hermitage",
+  "description": "Hermitage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Nikiforov",
+      "email": "my.wirgen@gmail.com",
+      "homepage": "https://wirgen.by"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "livetyping/hermitage": "~0.1"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"copy('.env.example', '.env');\""
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}
