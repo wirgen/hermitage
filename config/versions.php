@@ -12,6 +12,7 @@
  *  - resize {@link \livetyping\hermitage\foundation\images\processor\manipulators\Resize}
  *  - fit {@link \livetyping\hermitage\foundation\images\processor\manipulators\Fit}
  */
+
 return [
     'mini' => [
         'type' => 'resize',
@@ -27,5 +28,10 @@ return [
         'type' => 'fit',
         'height' => 100,
         'width' => 100,
+    ],
+    'logo' => [
+        'type' => 'resize_logo',
+        'width' => 800,
+        'logo' => 'config/watermark.png',
     ],
 ];

@@ -1,5 +1,6 @@
 <?php
 
+use App\Manipulators\ResizeLogo;
 use livetyping\hermitage\foundation\images\processor\manipulators\Fit;
 use livetyping\hermitage\foundation\images\processor\manipulators\Resize;
 use function DI\string;
@@ -14,6 +15,7 @@ return [
     'images.manipulator-map' => [
         'resize' => Resize::class,
         'fit' => Fit::class,
+        'resize_logo' => ResizeLogo::class,
     ],
 
     // slim framework settings
